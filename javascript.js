@@ -6,7 +6,7 @@
      
     e.preventDefault()
 
-     let randomNumber = (Math.floor(Math.random()*100));
+     let randomNumber = (Math.floor(Math.random()*10));
 
      if(input == randomNumber){
          para.innerHTML = "Your Number is  high";
