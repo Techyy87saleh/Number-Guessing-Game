@@ -8,7 +8,7 @@
 
      let randomNumber = (Math.floor(Math.random()*100));
 
-     if(input === randomNumber){
+     if(input == randomNumber){
          para.innerHTML = "Your Number is  high";
      }
      else if(input < randomNumber){
